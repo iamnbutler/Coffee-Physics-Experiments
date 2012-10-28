@@ -51,12 +51,12 @@ a:hover, a:active {
   color: #fff;
   text-shadow: none; }
 
-html, body, section#body {
+html, body, #container {
+  overflow: hidden;
   width: 100%;
-  height: 100%;
-}
+  height: 100%; }
 
-section#body {
+#container {
+  background-color: white;
   background-image: url(../img/bg-grid.png);
-  background-size: 50px;
-}
+  background-size: 50px; }
